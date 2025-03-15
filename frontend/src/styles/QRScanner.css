@@ -1,0 +1,22 @@
+/* QRScanner.css */
+
+/* Container for the QR scanner */
+.qr-scanner {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Display result text after scanning */
+.qr-scanner p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* QR Scanner frame */
+.qr-scanner iframe {
+    border: none;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+}

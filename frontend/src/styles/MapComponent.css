@@ -1,0 +1,27 @@
+/* MapComponent.css */
+
+/* Map container */
+.map-component {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/* Popup style for each marker */
+.leaflet-popup-content {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.leaflet-popup-content button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.leaflet-popup-content button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,39 @@
+/* Header.css */
+
+/* Main header container */
+.header {
+    background-color: #333; /* Dark background for the header */
+    color: white; /* Light text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the logo */
+.header .logo h1 {
+    font-size: 2rem;
+}
+
+/* Navigation styling */
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    background-color: #007BFF;
+    border-radius: 5px;
+}

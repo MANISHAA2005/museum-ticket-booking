@@ -1,0 +1,32 @@
+/* Footer.css */
+
+/* Footer container */
+.footer {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer content for the 'About Us' section */
+.footer .footer-content p {
+    margin: 10px 0;
+}
+
+/* Social media section */
+.footer-socials ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-socials ul li a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for social media links */
+.footer-socials ul li a:hover {
+    color: #007BFF;
+}
