@@ -1,14 +1,17 @@
-const ollama = require("ollama");
+const chatbotResponse = async (req, res) => {
+    const { message } = req.body;
 
-exports.chatbotResponse = async (req, res) => {
-    try {
-        const { userMessage } = req.body;
-        
-        // AI chatbot response (Using Ollama Phi-3)
-        const response = await ollama.generate('phi-3', { prompt: userMessage });
+    let response = { text: "How many tickets?", options: ["1", "2", "3", "4+"] }; // Example dropdown
 
-        res.status(200).json({ botMessage: response });
-    } catch (error) {
-        res.status(500).json({ error: "Chatbot is currently unavailable" });
+    if (message.toLowerCase() === "hi") {
+        response = { text: "Which museum?", options: ["Art", "History", "Science"] };
+    } else if (message.toLowerCase() === "art") {
+        response = { text: "How many tickets?", options: ["1", "2", "3", "4+"] };
+    } else {
+        response = { text: "Confirm booking?", options: ["Yes", "No"] };
     }
+
+    return res.json(response);
 };
+
+module.exports = { chatbotResponse };
