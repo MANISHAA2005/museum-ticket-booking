@@ -16,7 +16,7 @@ const ChatbotIcon = () => {
           </button>
         </div>
       ) : (
-        <img src="chatbot-icon.png" alt="Chatbot Icon" />
+        <img src="frontend/src/assets/chat_icon.jpg" alt="Chatbot Icon" />
       )}
     </div>
   );
