@@ -1,0 +1,50 @@
+/* Popular Page Styles */
+.popular-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.popular-header {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popular-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.popular-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.popular-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.popular-item h3 {
+    margin-top: 10px;
+}
+
+.popular-item button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.popular-item button:hover {
+    background-color: #0056b3;
+}

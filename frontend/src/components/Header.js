@@ -4,22 +4,20 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo">
-        <h1>Museum Ticket Booking</h1>
-      </div>
+      <div className="logo"></div>
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"></Link>
           </li>
           <li>
-            <Link to="/popular">Popular</Link>
+            <Link to="/popular"></Link>
           </li>
           <li>
-            <Link to="/helpus">Help Us</Link>
+            <Link to="/helpus"></Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact"></Link>
           </li>
         </ul>
       </nav>

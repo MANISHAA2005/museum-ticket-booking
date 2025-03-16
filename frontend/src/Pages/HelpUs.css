@@ -1,0 +1,25 @@
+/* Help Us Page Styles */
+.helpus-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.helpus-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.helpus-donate-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.helpus-donate-button:hover {
+    background-color: #218838;
+}

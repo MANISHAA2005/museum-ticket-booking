@@ -1,13 +1,17 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import HomePage from "./pages/HomePage";
-import ContactPage from "./pages/ContactPage";
-import PopularPage from "./pages/PopularPage";
-import HelpUsPage from "./pages/HelpUsPage";
-import MuseumDetailPage from "./pages/MuseumDetailPage";
-import MapPage from "./pages/MapPage";
+
+// Importing components
+import Header from "./components/Header"; // Adjusting the import path for Header
+import Footer from "./components/Footer"; // Adjusting the import path for Footer
+
+// Importing pages
+import HomePage from "./Pages/Home"; // Adjusting the import path for Home page
+import ContactPage from "./Pages/Contact"; // Adjusting the import path for Contact page
+import PopularPage from "./Pages/Popular"; // Adjusting the import path for Popular page
+import HelpUsPage from "./Pages/HelpUs"; // Adjusting the import path for HelpUs page
+import MuseumDetailPage from "./Pages/MuseumDetailPage"; // Adjusting the import path for MuseumDetail page
+import MapPage from "./Pages/Map"; // Adjusting the import path for Map page
 
 const App = () => {
   return (
