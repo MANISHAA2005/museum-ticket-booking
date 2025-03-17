@@ -4,38 +4,32 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>About Us</p>
-        <p>We aim to make museum ticket booking easier and more accessible.</p>
+        <p></p>
+        <p></p>
       </div>
       <div className="footer-socials">
-        <p>Follow us:</p>
+        <p></p>
         <ul>
           <li>
             <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
+            ></a>
           </li>
           <li>
             <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              Facebook
-            </a>
+            ></a>
           </li>
           <li>
             <a
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              Instagram
-            </a>
+            ></a>
           </li>
         </ul>
       </div>

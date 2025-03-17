@@ -12,6 +12,7 @@ import PopularPage from "./Pages/Popular"; // Adjusting the import path for Popu
 import HelpUsPage from "./Pages/HelpUs"; // Adjusting the import path for HelpUs page
 import MuseumDetailPage from "./Pages/MuseumDetailPage"; // Adjusting the import path for MuseumDetail page
 import MapPage from "./Pages/Map"; // Adjusting the import path for Map page
+import Chatbot from "./Pages/Chatbot"; // Importing Chatbot page
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
           <Route path="/helpus" element={<HelpUsPage />} />
           <Route path="/museum/:id" element={<MuseumDetailPage />} />
           <Route path="/map" element={<MapPage />} />
+          <Route path="/chatbot" element={<Chatbot />} /> {/* Chatbot Route */}
+          {/* ✅ New Explore Museum Route */}
         </Routes>
       </main>
 

@@ -1,7 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // ✅ Import useNavigate
 import "./Home.css"; // Make sure to create and import the CSS for styling
 
 const Home = () => {
+  const navigate = useNavigate(); // ✅ Initialize navigation function
+
   return (
     <div className="home">
       {/* Landing Section with Background Image */}
@@ -14,7 +17,7 @@ const Home = () => {
 
       {/* Explore Museums Section */}
       <section className="explore">
-        <h2>Explore Museums</h2>
+        <h2>EXPLORE MUSEUM</h2>
         <div className="museum-gallery">
           <div className="museum-item">
             <img src="/assets/national_m.jpg" alt="National Museum" />
@@ -61,8 +64,10 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Chatbot Icon */}
-      <div className="chatbot-icon">
+      {/* Chatbot Icon - Click to Navigate to Chatbot Page */}
+      <div className="chatbot-icon" onClick={() => navigate("/chatbot")}>
+        {" "}
+        {/* ✅ Added onClick event */}
         <img src="/assets/chat_icon.jpg" alt="Chatbot" />
         <span className="tooltip">
           I'm your AI assistant for ticket booking
